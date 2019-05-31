@@ -14,7 +14,7 @@ inbox_folder = namespace.GetDefaultFolder(6)
 # Had to create multiple objects of subfolders to get to specific directory
 inbox = inbox_folder.Folders
 sub_folder = inbox["Projects"]
-sub_sub_folder = sub_folder.Folders["Canada Project"]
+sub_sub_folder = sub_folder.Folders["Example Project"]
 
 
 # Used the Items method to parse individual email files within the folder
