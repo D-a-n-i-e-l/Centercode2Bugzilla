@@ -54,7 +54,7 @@ for i in range(0,100):
     try:
       shorten = Shortener('Tinyurl')
       url = shorten.short(long_url)
-    except requests.exceptions.RequestException
+    except requests.exceptions.ReadTimeout
       continue
     break
 
