@@ -72,7 +72,10 @@ class CC_to_BZscript:
 			"channel": channel_id,
 			"text": 
 				"------------------------------\n" 
-      				+ ID_finish + summ + "Bug URL: " + url + "\n" + "<@"+ slack_name +">" + 
+      				+ ID_finish 
+				+ summ 
+				+ "Bug URL: " + url 
+				+ "\n" + "<@"+ slack_name +">" + 
       				"\n------------------------------"
 				}
 			)
